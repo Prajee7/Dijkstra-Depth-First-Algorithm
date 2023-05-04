@@ -32,8 +32,6 @@ T is a 2-dimensional array of structs because we want to work on from all nodes 
 
 for (int source = 1; source <= nodeSize; source++) {
       T[source][source].dist = 0;
-
-      // finds the shortest distance from source to all other nodes
       for (int i = 1; i<= nodeSize; i++) {
          find v //not visited, shortest distance at this point
          mark v visited  
